@@ -1,0 +1,13 @@
+prefix=/Users/myyyu/miniconda3/envs/sadtalker
+exec_prefix=/Users/myyyu/miniconda3/envs/sadtalker
+libdir=/Users/myyyu/miniconda3/envs/sadtalker/lib
+sharedlibdir=/Users/myyyu/miniconda3/envs/sadtalker/lib
+includedir=/Users/myyyu/miniconda3/envs/sadtalker/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
